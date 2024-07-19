@@ -1,0 +1,225 @@
+body {
+    font-size: 16px; /* Define explicitamente o tamanho da fonte */   
+    font-family: Arial, Helvetica, sans-serif ;
+    background-color: rgb(253, 249, 243);
+}
+
+#menu-principal li{
+display:inline
+}
+#menu-principal a{
+    display: block;
+    float: left;
+    font-size: 18px;
+    color: black;
+    text-decoration-style: none;
+    margin-left: 32px;
+}
+#menu-principal {
+    position: absolute;
+    top: 16px;
+    right: 32px;
+}
+#foto-principal {
+    height: 200px;
+    background: url(foto_principal.jpg) no-repeat center top;
+}
+
+#cabecalho {
+    max-width: 60em; 
+    min-width: 37.5em; 
+    margin: 0 auto;
+    position: relative; 
+     font-family: "Segoe UI";
+    font-weight: lighter;
+}
+/* https://www.w3schools.com/css/css_link.asp */
+#menu-principal a:hover {
+    color: blue;
+}
+
+#menu-principal a.ativo {
+    color: blue;
+    font-weight: bold;
+}
+
+#menu-principal a:link {
+    text-decoration: none;
+}
+
+#conteudo-principal {
+    float: left;
+    width: 60%; /* 620 de 900 */
+    margin-right: 30px;
+}
+
+#conteudo-secundario {
+    float: right;
+    width: 30%; /* 280 de 900 */
+}
+
+#conteudo {
+    max-width: 60em; /* 1em=16px  60*16 = 960 */
+    min-width: 37.5em; /* 37.5*16 = 600 */
+    margin: 0 auto;
+}
+
+#conteudo-principal h1 {
+    font-size: 2em; /* 2.25*16 = 36 */
+}
+
+p {
+    font-size: 1em;
+    margin-bottom: 1.5em;
+}
+
+#conteudo-secundario h1 {
+    font-size: 1.5em; /* 1.5*16 = 24 */ 
+}
+#conteudo-secundario p {
+    font-size: 0.875; /* 0.875*16 = 14 */ 
+}
+
+#conteudo-secundario a {
+    font-size: 18px;
+    color: white;  
+}
+
+#conteudo-secundario {
+    background-color: #0f599f;
+    padding: 20px;
+    margin-top: 20px;
+    color: white;
+}
+
+#rodape {
+    clear: both;
+}
+
+#contato {
+    float: left;
+    font-size: 16px;
+    color: #000;
+    margin: 12px 12px;
+}
+
+#endereco {
+    float: right;
+    text-align: right;
+    color: #000;
+    font-size: 14px;
+    margin: 12px 12px;
+}
+
+#copyright {
+    clear: both;
+    font-size: 11px;
+    color: #000;
+    display: block;
+    margin: 12px 0px;
+    padding: 1em;
+}
+
+footer {
+    max-width: 60em; /* 1em=16px  60*16 = 960 */
+    min-width: 37.5em; /* 37.5*16 = 600 */
+    margin: 0 auto;
+    background-color: #ccc;
+}
+.tabela-servicos{
+    border-spacing: 0;
+    width: 100%;
+    margin-bottom: 10%;
+}
+.tabela-servicos caption{
+    font-size: 24px;
+    margin-bottom: 0.5em;
+    text-align: left;
+}
+.tabela-servicos th{
+    background: #0f599f;
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+}
+.tabela-servicos th, .tabela-servicos td{
+    border-bottom: #ccc 1px;
+    font-size: 14px;
+    padding: 0.3em;
+}
+.tabela-servicos .prazo-entrega{
+    text-align: center;
+}
+.tabela-servicos .valor-servicos{
+    text-align: right;
+}
+.depoimento {
+    margin-bottom: 1em;
+    
+}
+.depoimento blockquote {
+    font-size: 15px;
+    font-family: Georgia, serif;
+    font-style: italic;
+    line-height: 1.5em;
+    color: #666;
+    text-align: justify;
+    display:contents;
+}
+.depoimento blockquote p {
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+.depoimento .autor {
+    text-align: right;
+    font-size: 12px;
+ }
+#conteudo-principal{
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+}
+.legenda {
+    margin: 0px;
+    color: #FFF;
+    background:#808080 ;
+    font-style: italic;
+    text-align: center;    
+    
+}
+#foto-principal-e{
+    height:100px;
+    background: url(foto_principal.jpg) no-repeat center top;
+}
+#conteudo-secundario-emp{
+    margin-top: 20px;
+    color: white;
+    float: right;
+    width: 30%;
+    display:inline;
+}
+.figure{
+     display: contents;
+}
+.button {
+    background-color:#0f599f; 
+    color: white;
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 4px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+  }
+.select{
+    width: 50%; 
+    max-width: 65; 
+    font-size: 16px; 
+    background-color: #ffffff
+}
+.newsletter{
+    width: 20px;
+     height: 20px; 
+      background-color: #ffffff; 
+      border-radius: 0; 
+      cursor: pointer; 
+}
